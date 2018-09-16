@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test - Suite" >
+ <test name="Practice Grouping" >
+    <groups>
+ 	    <run>
+ 
+		<include name="Car" />
+		<include name = "Scooter" />
+		<exclude name = "Sedan Car"/>
+ 
+	    </run>
+ 	</groups>
+ 
+ <classes>
+ 	<class name="testsTestNG.Grouping" />
+ 	<class name = "testsTestNG.MultipleTests"/>
+ </classes>
+ 
+ </test>
+</suite>

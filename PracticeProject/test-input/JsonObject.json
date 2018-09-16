@@ -1,0 +1,10 @@
+{
+  "MyNo": 3,
+  "MyName": "Ravi Agrawal",
+  "MyBoolean": true,
+  "Members": [
+    "Kanchan",
+    "Rishika",
+    "Raunak"
+	]
+}

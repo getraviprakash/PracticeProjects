@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23866" started-at="2018-09-14T14:54:41Z" finished-at="2018-09-14T14:55:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23866" started-at="2018-09-14T14:54:41Z" finished-at="2018-09-14T14:55:05Z">
+      <class name="sampleTests.StaleElement">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:sampleTests.StaleElement@52feb982]" name="browserSetup" is-config="true" duration-ms="4146" started-at="2018-09-14T14:54:37Z" description="This test case opens browser." finished-at="2018-09-14T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:sampleTests.StaleElement@52feb982]" name="openURL" is-config="true" duration-ms="7100" started-at="2018-09-14T14:54:41Z" description="This test case is to open URL in browser." finished-at="2018-09-14T14:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="checkBrokenLinks()[pri:0, instance:sampleTests.StaleElement@52feb982]" name="checkBrokenLinks" duration-ms="16675" started-at="2018-09-14T14:54:48Z" finished-at="2018-09-14T14:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrokenLinks -->
+        <test-method status="PASS" signature="clearMemory()[pri:0, instance:sampleTests.StaleElement@52feb982]" name="clearMemory" is-config="true" duration-ms="63" started-at="2018-09-14T14:55:05Z" finished-at="2018-09-14T14:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMemory -->
+        <test-method status="PASS" signature="closeBroser()[pri:0, instance:sampleTests.StaleElement@52feb982]" name="closeBroser" is-config="true" duration-ms="854" started-at="2018-09-14T14:55:05Z" finished-at="2018-09-14T14:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+      </class> <!-- sampleTests.StaleElement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
